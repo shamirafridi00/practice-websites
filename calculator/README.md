@@ -18,8 +18,7 @@ function calculate(button) {
     // Function logic here
 }
 
-buttons.forEach(button => button.addEventListener('click', () => calculate(button)));
-`
+buttons.forEach(button => button.addEventListener('click', () => calculate(button)));`
 # Key Components
 
 - screenDisplay: Represents the display element where the calculator output is shown.
