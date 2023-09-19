@@ -3,6 +3,9 @@
 This documentation explains the functionality of a simple calculator implemented in JavaScript. The calculator allows users to input mathematical expressions, perform calculations, and clear the input. The code leverages a forEach loop to set up event listeners for buttons.
 
 
+![alt text](../calculator/calculatorUi.png)
+
+
 # Code Overview
 
 `const screenDisplay = document.querySelector('.screen');
@@ -49,7 +52,8 @@ buttons.forEach(button => button.addEventListener('click', () => calculate(butto
 # Dry Run Example
 
 - User Interaction:
-    The user clicks on "1".
+    
+- The user clicks on "1".
 
     value becomes "1".
 
@@ -59,7 +63,7 @@ buttons.forEach(button => button.addEventListener('click', () => calculate(butto
 
     The screen displays "1".
     
-    The user clicks on "+".
+-  The user clicks on "+".
     
     value becomes "+".
 
@@ -69,7 +73,7 @@ buttons.forEach(button => button.addEventListener('click', () => calculate(butto
 
     The screen displays "1+".
 
-    The user clicks on "2".
+-  The user clicks on "2".
 
     value becomes "2".
 
@@ -79,7 +83,7 @@ buttons.forEach(button => button.addEventListener('click', () => calculate(butto
 
     The screen displays "1+2".
     
-    The user clicks on "=".
+-   The user clicks on "=".
 
     value becomes "=".
     
@@ -87,7 +91,7 @@ buttons.forEach(button => button.addEventListener('click', () => calculate(butto
 
     The screen displays "3".
 
-    The user clicks on "CLEAR".
+-    The user clicks on "CLEAR".
 
     value becomes "CLEAR".
     
